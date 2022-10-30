@@ -1,0 +1,25 @@
+.Num {
+  background-color: #f5a3a3;
+  font-family: sans-serif;
+}
+
+.Special {
+  font-size: 24px;
+}
+
+div {
+  font-family: sans-serif;
+}
+
+
+#Num2 {
+  color: blue;
+  font-size: 36px;
+}
+
+
+#Num4 {
+  background-color: #69ef67;
+  font-size: 24px;
+  font-weight:bold;
+}
