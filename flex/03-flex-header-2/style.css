@@ -1,4 +1,4 @@
-/* this is some magical font-importing.  
+/* this is some magical font-importing.
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
@@ -6,6 +6,7 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+
 }
 
 .header {
@@ -20,6 +21,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+
+  display: flex;
 }
 
 .logo {
@@ -45,4 +48,33 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+
+/* Solution */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left-items {
+  display: flex;
+  align-items: center;
+  gap: 16px
+}
+
+.right-items {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+}
+
+ul {
+  padding: 0px;
+  display: flex;
+  gap: 16px;
 }
